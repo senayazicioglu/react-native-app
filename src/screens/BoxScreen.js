@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, Button, FlatList } from "react-native";
 import React, { useState } from "react";
 
 export default function BoxScreen() {
-  const [colors, setColors] = useState([]); //[] bos bir array vermemizin sebebi kac tane kutu eklersek bastırmasını istedigimiz icin
+  const [colors, setColors] = useState([]); 
 
   const randomColor = () => {
     const red = Math.floor(Math.random() * 256);
