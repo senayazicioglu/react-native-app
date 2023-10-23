@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   descTitle: {
-    alignItems: "center", //verilen acıklamaları ortala demek
-    paddingVertical: 20, //yukarıdan asagıdan araları ac demek
+    alignItems: "center", 
+    paddingVertical: 20, 
   },
   title: {
     fontSize: 25,
